@@ -6,14 +6,15 @@ function Counter() {
   return (
     <div className="counter">
       <div>
-        <a href="https://reactjs.org" target="_blank">
+        <a href="https://reactjs.org">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Counter</h1>
+      <h1 id="counterTitle">Counter</h1>
       <div className="card">
         <button
           className="filled"
+          id="counterButton"
           onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>

@@ -15,7 +15,7 @@ function ColorChanger() {
       }}>
       <h1>Color Changer</h1>
       <div className="card">
-        <input onChange={handleInputChange} value={color} type="text" />
+        <input id="colorBackgroundInput" onChange={handleInputChange} value={color} type="text" />
       </div>
       <p className="paragraph">Try changing the color code!!</p>
     </div>
